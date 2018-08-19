@@ -24,7 +24,7 @@ spec:
     type: Git
   strategy:
     dockerStrategy:
-      dockerfilePath: spring-boot-maven/Dockerfile-native
+      dockerfilePath: Dockerfile-native
       from:
         kind: DockerImage
         name: petenorth/graal:1.0.0-rc5
